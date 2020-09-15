@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    background-color: grey;
+    text-align: center;
+  }
+  
+  body * {
+    box-sizing: inherit;
+  }
+  
+  .message-box {
+    width: 900px;
+    margin: 150px auto 10px;
+    font-size: 80px;
+  }
+  
+  .message-box.error {
+    color: red;
+  }
+  
+  .table {
+    width: 1000px;
+    height: 500px;
+    border-radius: 120px;
+    background: purple;
+    margin: 0 auto;
+    color: white;
+    padding: 50px;
+  }
+  
+  .player {
+    margin: 20px;
+    background-color: teal;
+  }
+  
+  .player-name {
+    display: block;
+    font-size: 26px;
+  }
+  
+  .points {
+    font-style: italic;
+  }
+  
+  .hand {
+    height: 120px;
+    background: rgba(10, 43, 2, 0.5);
+    border-radius: 5px;
+  }
+  
+  .hand img {
+    height: 100%;
+    width: auto;
+    padding: 10px 0 10px 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: rgb(189, 229, 255);
+    background: darkgray;
+    
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: rgb(35, 133, 199);
+    box-shadow: 0px 0px 10px 5px rgba(35, 133, 199, 0.55);
+  }
+  
+  button[disabled] {
+    color: rgb(160, 160, 160);
+    background: rgb(71, 71, 71);
+  }
+  
+  button[disabled]:hover {
+    cursor: not-allowed;
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+  }
+  
+  button[type="reset"] {
+    color: rgb(255, 184, 184);
+    background: rgb(133, 8, 8);
+  }
+  
+  button[type="reset"]:hover {
+    background: rgb(150, 7, 7);
+    box-shadow: 0px 0px 10px 5px rgba(150, 7, 7, 0.63);
+  }
